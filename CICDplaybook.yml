@@ -1,4 +1,4 @@
-- hosts: webserver
+- hosts: awsserver
   become: true
   tasks:
   - name: Start docker service
